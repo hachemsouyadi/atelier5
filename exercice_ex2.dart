@@ -8,4 +8,9 @@ try{
   var age = int.parse(ageText!);
 } on FormatException catch (e){
   print('format invalide : $e');
-}}
+}
+finally {
+  print('Fin doperation');
+}
+
+}
